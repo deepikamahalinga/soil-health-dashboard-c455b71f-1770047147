@@ -1,0 +1,91 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+.nyc_output
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+desktop.ini
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+.env
+.env.development
+.env.test
+.env.production
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# logs
+logs
+*.log
+
+# database
+*.sql
+*.sqlite
+*.sqlite3
+/prisma/migrations/
+/postgres-data/
+
+# cache
+.cache/
+.temp/
+.tmp/
+*.cache
+
+# redis
+dump.rdb
+*.rdb
+
+# testing
+/coverage/
+/.coverage/
+/junit.xml
+/test-results/
+
+# Sentry
+.sentryclirc
+
+# Temporary files
+*.tmp
+*~
+*.swp
+.DS_Store
+
+# Build artifacts
+.turbo
+tsconfig.tsbuildinfo
